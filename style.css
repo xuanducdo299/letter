@@ -1,0 +1,48 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+}
+
+.container {
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	color: #333;
+	background: pink;
+
+}
+
+.love {
+	padding-top: 15%;
+}
+
+h2 {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+#love {
+	color: green;
+	background: #eee;
+}
+
+.love img {
+	height: 30px;
+	width: 30px;
+	animation: image 4s linear infinite;
+}
+
+@keyframes image {
+	0% {
+		transform: scale(.5);
+	}
+
+	50% {
+		transform: scale(1.5);
+	}
+
+	100% {
+		transform: scale(.5);
+	}
+}
